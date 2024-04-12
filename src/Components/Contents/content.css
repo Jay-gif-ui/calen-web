@@ -1,0 +1,75 @@
+/* index.css (ya fir aapke global CSS file mein) */
+@media (max-width: 768px) {
+    .head {
+        font-size: 35px !important;
+    }
+
+    .para {
+        font-size: 17px;
+        font-style: oblique;
+    }
+
+    .image {
+        width: 358px;
+        padding: 0 41px;
+    }
+
+    .btn {
+        position: relative;
+        top: 15px;
+
+    }
+
+    .fl {
+        position: relative;
+        left: 31px;
+    }
+
+    .space {
+        position: relative;
+        left: 35px;
+    }
+}
+
+
+@media (max-width: 642px) {
+    .space {
+        position: relative;
+        left: 0;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .para {
+        font-size: 12px;
+        font-style: oblique;
+    }
+
+    .head {
+        font-size: 35px !important;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .head {
+        font-size: 28px !important;
+        position: relative;
+        right: 30px;
+    }
+
+    .para {
+        font-size: 12px;
+        font-style: oblique;
+        position: relative;
+        right: 30px;
+    }
+
+    .btn {
+        position: relative;
+        top: 15px;
+        right: 30px;
+    }
+}

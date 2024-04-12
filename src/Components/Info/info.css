@@ -1,0 +1,31 @@
+.fix {
+    width: 288px;
+}
+
+
+@media (max-width: 768px) {
+    .fix {
+        width: 465px;
+        position: relative;
+        left: 117px;
+
+    }
+
+    .manage {
+        display: inline-grid;
+    }
+}
+
+@media (max-width: 425px) {
+    .fix {
+        width: 288px;
+        position: relative;
+        left: 59px;
+    }
+}
+
+@media (max-width: 375px) {
+    .fix {
+        left: 37px;
+    }
+}
